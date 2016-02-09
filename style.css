@@ -1,36 +1,37 @@
-h1 { 
-	text-align: center; 
+.site-title {
+ 	color: rgb(50,50,50);
+ 	text-decoration: none;
 }
-
 
 
 .navigation {
 	text-align: center;
 	font-family: "Vollkorn";
 	font-size: 27pt;
-	font-weight: bold;
+	margin:0;
+	padding:0;
 }
 
 .navigation h1{
 	margin: 0;
 }
 
-.navigation a{
-	color: rgb(175,0,0);
+.menu {
+	color: rgb(50,50,50);
 	text-decoration: none;
+	padding: 2px;
 }
 
 .navigation ul {
 	margin:0;
 	padding:0;
-	color: rgb(200,0,0);
 	text-decoration: none;
 }
 
 .navigation li {
-	display: inline-block;
 	margin:0;
 	padding:0;
+	display: inline-block;
 }
 
 .portrait{
