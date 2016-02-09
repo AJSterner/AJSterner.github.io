@@ -8,6 +8,11 @@ h1 {
 	text-align: center;
 	font-family: "Vollkorn";
 	font-size: 27pt;
+	font-weight: bold;
+}
+
+.navigation h1{
+	margin: 0;
 }
 
 .navigation a{
