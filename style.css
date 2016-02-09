@@ -2,20 +2,27 @@ h1 {
 	text-align: center; 
 }
 
+
+
 .navigation {
 	text-align: center;
 	font-family: "Vollkorn";
-	font-size: 25;
+	font-size: 27;
+}
+h1.navigation {
+	color: black;
 }
 
 .navigation a{
-	color: rgb(200,0,0);
+	color: rgb(175,0,0);
 	text-decoration: none;
 }
 
 .navigation ul {
 	margin:0;
 	padding:0;
+	color: rgb(200,0,0);
+	text-decoration: none;
 }
 
 .navigation li {
@@ -32,4 +39,9 @@ img.portrait{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+body{
+	margin-left: 5%;
+	margin-right: 5%; 
 }
